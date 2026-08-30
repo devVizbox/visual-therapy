@@ -22,6 +22,10 @@ export const metadata: Metadata = {
   title: "Visual Therapies CIC",
   description:
     "Supporting stroke survivors and caregivers in Bidston, Wirral through community connection, modern rehabilitation, and VR technology.",
+  icons: {
+    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
+    apple: [{ url: "/apple-icon.svg", type: "image/svg+xml" }],
+  },
 };
 
 export default function RootLayout({

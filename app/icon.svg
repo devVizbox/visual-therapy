@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none" role="img" aria-label="Visual Therapies CIC">
+  <defs>
+    <linearGradient id="vt-bg" x1="6" y1="4" x2="26" y2="28" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="8" fill="url(#vt-bg)"/>
+  <path
+    d="M8.25 10.25 16 21.75 23.75 10.25"
+    stroke="#FFFFFF"
+    stroke-width="2.35"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M12.25 21.75h7.5"
+    stroke="#FFFFFF"
+    stroke-width="2.35"
+    stroke-linecap="round"
+  />
+</svg>
