@@ -7,6 +7,7 @@ import { useState, useEffect } from "react";
 const links = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
+  { href: "/hey-skyla", label: "Hey Skyla" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -30,7 +31,6 @@ export default function Navigation() {
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        {/* Logo */}
         <Link
           href="/"
           className="text-xl font-bold text-slate-900 tracking-tight transition-opacity duration-200 hover:opacity-75"
@@ -38,7 +38,6 @@ export default function Navigation() {
           Visual Therapies CIC
         </Link>
 
-        {/* Desktop nav */}
         <ul className="hidden md:flex items-center gap-8">
           {links.map(({ href, label }) => (
             <li key={href}>
@@ -54,18 +53,6 @@ export default function Navigation() {
           ))}
           <li>
             <Link
-              href="/hey-skyla"
-              className={`rounded-xl border px-4 py-2.5 text-sm font-semibold transition-colors duration-200 ${
-                pathname === "/hey-skyla"
-                  ? "border-blue-700 bg-blue-50 text-blue-700"
-                  : "border-blue-200 bg-blue-50 text-blue-800 hover:border-blue-400 hover:bg-blue-100"
-              }`}
-            >
-              Hey Skyla
-            </Link>
-          </li>
-          <li>
-            <Link
               href="/contact"
               className="btn-primary bg-blue-700 text-white text-sm font-semibold px-5 py-2.5 rounded-xl hover:bg-blue-800"
             >
@@ -74,7 +61,6 @@ export default function Navigation() {
           </li>
         </ul>
 
-        {/* Mobile hamburger */}
         <button
           className="md:hidden text-slate-700 focus:outline-none transition-transform duration-200 active:scale-90"
           onClick={() => setMenuOpen(!menuOpen)}
@@ -96,7 +82,6 @@ export default function Navigation() {
         </button>
       </div>
 
-      {/* Mobile menu */}
       <div
         className={`md:hidden overflow-hidden transition-all duration-300 ${
           menuOpen ? "max-h-80 opacity-100" : "max-h-0 opacity-0"
@@ -117,17 +102,6 @@ export default function Navigation() {
               {label}
             </Link>
           ))}
-          <Link
-            href="/hey-skyla"
-            onClick={() => setMenuOpen(false)}
-            className={`block text-sm font-semibold py-2.5 px-3 rounded-xl text-center transition-colors duration-200 ${
-              pathname === "/hey-skyla"
-                ? "bg-blue-700 text-white"
-                : "bg-blue-100 text-blue-800 hover:bg-blue-200"
-            }`}
-          >
-            Hey Skyla
-          </Link>
           <Link
             href="/contact"
             onClick={() => setMenuOpen(false)}
