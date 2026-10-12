@@ -172,10 +172,10 @@ export default function AboutPage() {
               Contact Us
             </Link>
             <a
-              href="mailto:info@visualtherapiescic.org"
+              href="mailto:carl@visualtherapies.co.uk"
               className="btn-outline border-2 border-blue-700 text-blue-700 font-semibold px-8 py-3.5 rounded-xl hover:bg-blue-50"
             >
-              info@visualtherapiescic.org
+              carl@visualtherapies.co.uk
             </a>
           </div>
         </AnimateOnScroll>

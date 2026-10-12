@@ -308,13 +308,13 @@ export default function HomePage() {
           <p className="text-slate-500 text-lg mb-6">For more information please contact us on</p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="mailto:info@visualtherapiescic.org"
+              href="mailto:carl@visualtherapies.co.uk"
               className="btn-primary inline-flex items-center gap-2 bg-blue-700 text-white font-semibold px-8 py-3.5 rounded-xl hover:bg-blue-800 shadow-md"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
-              info@visualtherapiescic.org
+              carl@visualtherapies.co.uk
             </a>
             <a
               href="tel:07806680842"

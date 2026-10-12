@@ -9,8 +9,8 @@ export const metadata = {
 const contactDetails = [
   {
     label: "Email",
-    value: "info@visualtherapiescic.org",
-    href: "mailto:info@visualtherapiescic.org",
+    value: "carl@visualtherapies.co.uk",
+    href: "mailto:carl@visualtherapies.co.uk",
     icon: (
       <svg className="w-5 h-5 text-blue-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -70,13 +70,13 @@ export default function ContactPage() {
 
           <div className="hero-a4 flex flex-wrap gap-4 mt-10">
             <a
-              href="mailto:info@visualtherapiescic.org"
+              href="mailto:carl@visualtherapies.co.uk"
               className="btn-ghost flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 text-white text-sm px-5 py-2.5 rounded-full hover:bg-white/20"
             >
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
-              info@visualtherapiescic.org
+              carl@visualtherapies.co.uk
             </a>
             <a
               href="tel:07806680842"

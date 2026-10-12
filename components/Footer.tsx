@@ -60,7 +60,7 @@ export default function Footer() {
           <ul className="space-y-4">
             <li>
               <a
-                href="mailto:info@visualtherapiescic.org"
+                href="mailto:carl@visualtherapies.co.uk"
                 className="group flex items-start gap-3 hover:text-white transition-colors duration-200"
               >
                 <div className="mt-0.5 w-8 h-8 rounded-lg bg-slate-800 group-hover:bg-blue-700 flex items-center justify-center shrink-0 transition-colors duration-200">
@@ -68,7 +68,7 @@ export default function Footer() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                 </div>
-                <span className="text-sm">info@visualtherapiescic.org</span>
+                <span className="text-sm">carl@visualtherapies.co.uk</span>
               </a>
             </li>
             <li>
