@@ -1,4 +1,5 @@
 import AnimateOnScroll from "@/components/AnimateOnScroll";
+import ContactForm from "@/components/ContactForm";
 
 export const metadata = {
   title: "Contact Us | Visual Therapies CIC",
@@ -147,85 +148,7 @@ export default function ContactPage() {
 
           {/* Right — form */}
           <AnimateOnScroll animation="fade-right">
-            <div className="bg-slate-50 rounded-2xl border border-slate-100 p-8 shadow-sm">
-              <h2 className="text-2xl font-bold text-slate-900 mb-2">Send a Message</h2>
-              <p className="text-slate-500 text-sm mb-8">We&apos;ll get back to you as soon as possible.</p>
-
-              <form className="space-y-5">
-                <div className="grid grid-cols-2 gap-4">
-                  <div>
-                    <label htmlFor="first-name" className="block text-sm font-medium text-slate-700 mb-1.5">
-                      First name
-                    </label>
-                    <input
-                      id="first-name"
-                      type="text"
-                      placeholder="Jane"
-                      className="w-full bg-white border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-shadow duration-200 hover:border-slate-300"
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="last-name" className="block text-sm font-medium text-slate-700 mb-1.5">
-                      Last name
-                    </label>
-                    <input
-                      id="last-name"
-                      type="text"
-                      placeholder="Smith"
-                      className="w-full bg-white border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-shadow duration-200 hover:border-slate-300"
-                    />
-                  </div>
-                </div>
-
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-slate-700 mb-1.5">
-                    Email address
-                  </label>
-                  <input
-                    id="email"
-                    type="email"
-                    placeholder="jane@example.com"
-                    className="w-full bg-white border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-shadow duration-200 hover:border-slate-300"
-                  />
-                </div>
-
-                <div>
-                  <label htmlFor="role" className="block text-sm font-medium text-slate-700 mb-1.5">
-                    I am a...
-                  </label>
-                  <select
-                    id="role"
-                    className="w-full bg-white border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-shadow duration-200 hover:border-slate-300"
-                  >
-                    <option value="">Please select</option>
-                    <option>Stroke survivor</option>
-                    <option>Caregiver</option>
-                    <option>Volunteer</option>
-                    <option>Potential partner / sponsor</option>
-                    <option>Other</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-slate-700 mb-1.5">
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    rows={5}
-                    placeholder="How can we help you?"
-                    className="w-full bg-white border border-slate-200 rounded-xl px-4 py-3 text-sm text-slate-900 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none transition-shadow duration-200 hover:border-slate-300"
-                  />
-                </div>
-
-                <button
-                  type="submit"
-                  className="btn-primary w-full bg-blue-700 text-white font-semibold py-3.5 rounded-xl hover:bg-blue-800 shadow-md"
-                >
-                  Send Message
-                </button>
-              </form>
-            </div>
+            <ContactForm />
           </AnimateOnScroll>
 
         </div>
