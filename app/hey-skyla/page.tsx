@@ -10,6 +10,10 @@ export const metadata: Metadata = {
     capable: true,
     title: "Hey Skyla",
   },
+  icons: {
+    icon: [{ url: "/hey-skyla/icon.png", type: "image/png", sizes: "512x512" }],
+    apple: [{ url: "/hey-skyla/apple-icon.png", type: "image/png", sizes: "180x180" }],
+  },
 };
 
 export default function HeySkylaPage() {

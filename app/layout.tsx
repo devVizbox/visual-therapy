@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   description:
     "Supporting stroke survivors and caregivers in Bidston, Wirral through community connection, modern rehabilitation, and VR technology.",
   icons: {
-    icon: [{ url: "/icon.svg", type: "image/svg+xml" }],
-    apple: [{ url: "/apple-icon.svg", type: "image/svg+xml" }],
+    icon: [{ url: "/hey-skyla/icon.png", type: "image/png", sizes: "512x512" }],
+    apple: [{ url: "/hey-skyla/apple-icon.png", type: "image/png", sizes: "180x180" }],
   },
 };
 
